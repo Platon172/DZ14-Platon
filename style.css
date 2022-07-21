@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+body {
+  background-color: rgb(11, 80, 11);
+}
+
+.modal {
+  background-color: white;
+  border-radius: 24px;
+  width: 500px;
+  padding: 24px;
+}
+.modal-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.modal-close {
+  width: 20px;
+  height: 20px;
+}
+.link-icon {
+  display: block;
+  width: 80px;
+  margin: auto;
+}
+.link-text {
+  display: block;
+  text-align: center;
+}
+.modal-link {
+  display: block;
+  width: 100px;
+}
+.modal-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
